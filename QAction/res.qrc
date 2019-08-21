@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="doc-open">C:/Users/zhanghaonan/Pictures/butterfly.jpg</file>
+    </qresource>
+    <qresource prefix="/image" lang="fr">
+        <file alias="doc-open">C:/Users/zhanghaonan/Pictures/butterfly.jpg</file>
+    </qresource>
+</RCC>
