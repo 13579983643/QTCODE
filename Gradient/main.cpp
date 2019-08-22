@@ -1,12 +1,13 @@
-#include "custombutton.h"
+#include "mainwindow.h"
 #include <QApplication>
+#include <QPaintEvent>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    CustomButton btn;
-    btn.setText("This is a Button!");
-    btn.show();
+
+    PaintedWidget paint;
+    paint.show();
 
     return a.exec();
 }

@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-08-21T16:03:08
+# Project created by QtCreator 2019-08-22T19:16:04
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = event2
+TARGET = GraphicsViem
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,12 +26,10 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    custombutton.cpp
+        mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h \
-    custombutton.h
+        mainwindow.h
 
 FORMS += \
         mainwindow.ui
